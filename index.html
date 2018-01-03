@@ -7,15 +7,110 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alfatime Project</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg5O8ZsXzMI8t99GPjsHfP9fT3JqrZczI&language=pl&region=PL&callback=initMap" defer></script>
 </head>
 <body>
     <section class="at-main">
+        <div class="at_main-header">
+            <img src="img/at-logo.svg" class="at-main_logo" alt="alfatime-logo">
+            <nav class="at-main_header-nav">
+                <a class="move-to_abus">O firmie</a>
+                <a class="move-to_bnf">Nasze zalety</a>
+                <a>Rodzaje pracy</a>
+                <a>Galeria</a>
+                <a>Kariera</a>
+            </nav>
+        </div>
+        <div class="at_second-header">
+            <img src="img/at-logo.svg" class="at-main_logo at-main-second_logo" alt="alfatime-logo">
+             <nav class="at-main_header-nav at_second-header-nav">
+                <a class="move-to_abus">O firmie</a>
+                <a class="move-to_bnf">Nasze zalety</a>
+                <a>Rodzaje pracy</a>
+                <a>Galeria</a>
+                <a>Kariera</a>
+            </nav>
+            <div class="header-phone_wrapper">
+                <div class="icon-phone hvr-buzz"></div>
+                <a href="tel:+48793204960">(+48 79) 320 49 60</a>
+            </div>
+        </div>
         <div class="at-main_veil">
-            <h1 class="main-heading">Building maintenance</br>and</br>repairs services</h1>
+            <h1 class="main-heading">Budownictwo domów</br>i</br>usługi naprawcze</h1>
         </div>
     </section>
-    <section style="height:5000px">
-
+    <section class="at-abus">
+        <div class="at-abus_img">
+            <div class="at-main_veil at-abus_veil"></div>
+        </div>
+        <div class="at-abus_descr">
+            <div class="at-heading at-abus_heading">O firmie</div>
+            <div class="at-abus_text">Pozdrowienia!</br>
+                Mam na imię Oleg i jestem zawodowym projektantem wnętrz, projektuję i naprawiam od 8 lat, razem ze mną jest zespół specjalistów, z których każdy jest mistrzem swojego rzemiosła!</br>
+                Malarze, stolarze, hydraulicy, elektrycy, dekarze, murarze, majstrowie i artyści!</br>
+                Nasz zespół zaprojektuje i wdroży najśmielsze pomysły na czas, z jakością, z najlepszymi wynikami!</br>
+                Wszystkie rodzaje napraw mieszkania, wszelkie prace wykończeniowe!</br>
+                Zawsze uda nam sie dojść do porozumienia!</br>
+                <div>Z poważaniem, Project Manager Oleg Sorokin.</div>
+            </div>
+        </div>
     </section>
+    <section class="at-bnf">
+        <div class="at-heading at-bnf_heading">Nasze zalety</div>
+        <div class="at-row">
+            <div class="at-col">
+                <div class="at-bnf_card">
+                    <div class="at-bnf_circle">
+                        <div class="at-bnf_icon icon-home"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="at-col">
+                <div class="at-bnf_card">
+                    <div class="at-bnf_circle">
+                        <div class="at-bnf_icon icon-security"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="at-col">
+                <div class="at-bnf_card">
+                    <div class="at-bnf_circle">
+                        <div class="at-bnf_icon icon-tools"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="at-col">
+                <div class="at-bnf_card">
+                    <div class="at-bnf_circle">
+                        <div class="at-bnf_icon icon-cog"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="at-col">
+                <div class="at-bnf_card">
+                    <div class="at-bnf_circle">
+                        <div class="at-bnf_icon icon-calendar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="at-col">
+                <div class="at-bnf_card">
+                    <div class="at-bnf_circle">
+                        <div class="at-bnf_icon icon-stopwatch"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="at-footer-wrapper">
+        <div id="footer-map" class="at-map-wrapper"></div>
+        <div class="at-footer"></div>
+    </section>
+    <a class="site-scroll-top">
+        <span class="icon-chevron-up"></span>
+    </a>
 </body>
 </html>
