@@ -42,6 +42,19 @@ $('.move-to_bnf').click(function() {
 });
 
 
+var pswpElement = document.querySelectorAll('.pswp')[0],
+    items = [
+      { src: '../img/gal/photo-1.jpg', w: 720, h: 1280 },
+      { src: '../img/gal/photo-2.jpg', w: 1280, h: 720 },
+      { src: '../img/gal/photo-3.jpg', w: 1280, h: 720 }
+    ],
+    options = {
+      closeOnScroll: false
+    };
+
+var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+gallery.init();
+  
 function initMap() {
 
   var styledMapType = new google.maps.StyledMapType(
