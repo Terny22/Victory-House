@@ -53,6 +53,12 @@ $('.move-to_gallery').click(function() {
   }, 1000, 'swing');
 });
 
+$('.move-to_career').click(function() {
+  $('body,html').animate({
+    scrollTop: $('.at-career').offset().top - 80
+  }, 1000, 'swing');
+});
+
 $('.at-gallery-button').on("click", openPhotoSwipe);
 
   
