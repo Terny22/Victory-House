@@ -59,7 +59,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.9);
+    background: rgba(0,0,0,.85);
     text-align: center;
 }
 .main-heading {
@@ -88,7 +88,7 @@
 }
 .at_second-header {
     top: -80px;
-    background-color: #ef3340;
+    background-color: #F47B2C;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
     transition: top 0.2s ease-in-out;
 }
@@ -103,18 +103,18 @@
 }
 .at-main_header-nav a {
     display: block;
-    padding: 18px 10px 10px;
+    padding: 8px 12px 6px 12px;
     font-family: gtw-mid;
     font-size: 22px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .at-main_header-nav a:hover {
-    background-color:#ef3340;
+    background-color: #F47B2C;
 }
 .at_second-header-nav a:hover {
-    background-color:#fff;
-    color: #ef3340;
+    background-color: #fff;
+    color: #F47B2C;
 }
 .header-phone_wrapper {
     display: flex;
@@ -138,7 +138,7 @@
 .at-services {
     display: flex;
     height: 600px;
-    color: #fff;
+    color: #282828;
 }
 .at-abus_img,
 .at-services_img {
@@ -156,7 +156,7 @@
     width: 50%;
     height: 100%;
     padding: 0px 40px;
-    background-color: #ef3340;
+    background-color: #F47B2C;
 }
 .at-heading {
     font-family: gtw-bold;
@@ -189,12 +189,12 @@
 .at-gallery-career {
     display: flex;
     height: 400px;
-    color: #fff;
+    color: #282828;
 }
 .at-gallery {
     width: 35%;
     height: 100%;
-    background-color: #ef3340;
+    background-color: #F47B2C;
 }
 .at-gallery_descr {
     display: flex;
@@ -219,7 +219,7 @@
 }
 .at-button:hover {
     background-color: #fff;
-    color: #ef3340;
+    color: #F47B2C;
 }
 
 /*------------------------------ Our Career  -------------------*/
@@ -245,7 +245,7 @@
     padding: 0 40px;
     width: 53.85%;
     height: 100%;
-    background-color: #ef3340;
+    background-color: #F47B2C;
 }
 
 /*------------------------------ Our benefits  -------------------*/
@@ -255,7 +255,7 @@
     color: #fff;
 }
 .at-bnf_heading {
-    color:#ef3340;
+    color:#F47B2C;
     margin-bottom: 100px;
 }
 .at-row {
@@ -273,7 +273,7 @@
     position: relative;
     width: 100%;
     min-height: 200px;
-    background-color: #ef3340;
+    background-color: #F47B2C;
     box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.1);
 }
 .at-bnf_circle {
@@ -284,11 +284,11 @@
     width: 80px;
     height: 80px;
     background-color: #fff;
-    border: 2px solid #ef3340;
+    border: 2px solid #F47B2C;
     border-radius: 50%;
     box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.1);
     transform: translateX(-50%);
-    color: #ef3340;
+    color: #F47B2C;
 }
 .at-bnf_icon {
     margin: auto;
@@ -335,7 +335,7 @@
     width: 35px;
     font-size: 16px;
     border-radius: 50%;
-    background:#ef3340;
+    background: #F47B2C;
     border: 3px solid #fff;
     text-align: center;
     z-index: 998;
@@ -348,8 +348,8 @@
     -webkit-box-sizing: content-box;
 }
 .site-scroll-top:hover {
-    color: #ef3340;
-    border: 3px solid #ef3340;
+    color: #F47B2C;
+    border: 3px solid #F47B2C;
     background: #fff;
 }
 .site-scroll-top.show-scroll-top {
@@ -377,7 +377,7 @@
 }
 .gm-style-iw {
     font-family: gta-regular;
-    color: #ef3340;
+    color: #F47B2C;
 
 }
 .gmnoprint a, .gmnoprint span {
