@@ -53,9 +53,9 @@ $('.move-to_gallery').click(function() {
   }, 1000, 'swing');
 });
 
-$('.move-to_career').click(function() {
+$('.move-to_contacts').click(function() {
   $('body,html').animate({
-    scrollTop: $('.at-career').offset().top - 80
+    scrollTop: $('.at-footer').offset().top - 80
   }, 1000, 'swing');
 });
 
@@ -96,44 +96,9 @@ $('.at-gallery-button').on("click", openPhotoSwipe);
 function openPhotoSwipe() {
   var pswpElement = document.querySelectorAll('.pswp')[0],
       items = [
-        { src: 'img/gal/photo-1.jpg', w: 720, h: 1280 },
-        { src: 'img/gal/photo-2.jpg', w: 1280, h: 960 },
-        { src: 'img/gal/photo-3.jpg', w: 1280, h: 960 },
-        { src: 'img/gal/photo-4.jpg', w: 1280, h: 960 },
-        { src: 'img/gal/photo-5.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-6.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-7.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-8.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-9.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-10.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-11.jpg', w: 720, h: 1280 },
-        { src: 'img/gal/photo-12.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-13.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-14.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-15.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-16.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-17.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-18.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-19.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-20.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-21.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-22.jpg', w: 720, h: 1280 },
-        { src: 'img/gal/photo-23.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-24.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-25.jpg', w: 720, h: 1280 },
-        { src: 'img/gal/photo-26.jpg', w: 720, h: 1280 },
-        { src: 'img/gal/photo-27.jpg', w: 720, h: 1280 },
-        { src: 'img/gal/photo-28.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-29.jpg', w: 720, h: 1280 },
-        { src: 'img/gal/photo-30.jpg', w: 720, h: 1280 },
-        { src: 'img/gal/photo-31.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-32.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-33.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-34.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-35.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-36.jpg', w: 720, h: 1280 },
-        { src: 'img/gal/photo-37.jpg', w: 1280, h: 720 },
-        { src: 'img/gal/photo-38.jpg', w: 1280, h: 720 }
+        { src: 'img/gal/photo-1.jpg', w: 739, h: 1064 },
+        { src: 'img/gal/photo-2.jpg', w: 788, h: 1058 },
+        { src: 'img/gal/photo-3.jpg', w: 1280, h: 960 }
       ],
       options = {
         closeOnScroll: false
