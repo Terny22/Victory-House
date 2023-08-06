@@ -47,8 +47,8 @@
 /*------------------------------ Main block  -------------------*/
 .at-main {
     position: relative;
-    height: 768px;
-    background: url("../img/main.jpg") center no-repeat;
+    height: 840px;
+    background: url("../img/fasad.jpg") center 20% no-repeat;
     background-size: cover;
     color: #fff;
 }
@@ -59,14 +59,20 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.85);
+    background: rgba(0,0,0,.83);
     text-align: center;
 }
 .main-heading {
     margin: auto;
     padding-top: 75px;
-    font-family: gtw-bold;
+    font-family: Candara;
     font-size: 60px;
+}
+.main-heading_name {
+    font-size: 80px;
+}
+.main-heading_place {
+    font-size: 38px;
 }
 .at_main-header,
 .at_second-header {
@@ -104,8 +110,9 @@
 .at-main_header-nav a {
     display: block;
     padding: 8px 12px 6px 12px;
-    font-family: gtw-mid;
+    font-family: Candara;
     font-size: 22px;
+    font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -122,9 +129,12 @@
     margin-right: 30px;
     padding-top: 5px;
 }
+.header-phone_wrapper:hover .icon-phone {
+    color: limegreen;
+}
 .header-phone_wrapper a {
     font-family: gtw-bold;
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     text-decoration: none;
 }
@@ -132,10 +142,28 @@
     margin-right: 10px;
     font-size: 32px;
 }
+.phone-number_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.phone-number_heading {
+    display: flex;
+    margin-top: 32px;
+    justify-content: center;
+}
+.phone-number_heading  a {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+}
+.phone-number_heading  a:first-child {
+    margin-right: 22px;
+}
 
 /*------------------------------ About Us  -------------------*/
 .at-abus,
 .at-services {
+    font-family: Candara;
     display: flex;
     height: 600px;
     color: #282828;
@@ -157,9 +185,10 @@
     height: 100%;
     padding: 0px 40px;
     background-color: #F47B2C;
+    font-family: Candara;
+    font-weight: bold;
 }
 .at-heading {
-    font-family: gtw-bold;
     font-size: 60px;
     text-align: center;
 }
@@ -167,9 +196,10 @@
     margin-bottom: 20px;
 }
 .at-text {
-    font-family: gta-regular;
+    font-family: Candara;
     font-size: 18px;
     line-height: 27px;
+    font-weight: bold;
 }
 .at-abus .at-text div {
     margin-top: 5px;
